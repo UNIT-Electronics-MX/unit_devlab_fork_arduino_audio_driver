@@ -8,8 +8,10 @@
 #include "Lyrat43.h"
 #include "LyratMini.h"
 #include "M5stackAtomEchoS3R.h"
+#if defined(CONFIG_IDF_TARGET_ESP32S3)
 #include "ESP32S3AISmartSpeaker.h"
 #include "ESP32S3HosyondDisplay.h"
+#endif
 #include "GmicHaToyMd.h"
 #include "WaveshareESP32P4WIFI6.h"
 #endif
